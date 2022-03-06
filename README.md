@@ -1,5 +1,12 @@
 # Swift Challenges
 
-## First Challenge
-Create a closure that takes 2 doubles & a sign (+-*/) and then returns the result of their sum, subtraction, multiplication, and division (based on the sign).
+## 1st Challenge
+Create a function that receives an integers array and returns the number that appeared only once.
+
+
+| المدخلات        | المخرجات |
+| --------------- | -------- |
+| (2,4,6,4,9,6,2) | 9        |
+| (1,1,2)         | 2        |
+| (2,2,1)         | 1        |
 
