@@ -1,4 +1,4 @@
-# Swift Challenges
+# Coding Challenges
 
 ## 1st Challenge
 Create a function that receives an integers array and returns the number that appeared only once.
@@ -25,10 +25,29 @@ Create a function that receives a string then it converts uppercase letters into
 ## 3rd Challenge
 Create a function that receives an array of items & arrays and returns one array with all items exluding null values.
 
-
-| n | Input                                 | Output                |
+| N | Input                                 | Output                |
 | - | ------------------------------------- | --------------------- |
 | 1 | [1,[2,3,null,4],[null],5]             | [1,2,3,4,5]           |
 | 2 | [7, 0,[null],[null, null, 9]]         | [7, 0, 9]             |
 | 3 | [[null, 3], [2, 4, 5, null], 0, 8, 3] | [3, 2, 4, 5, 0, 8, 3] |
 | 4 | [3, 5, [5, 9, 0]]                     | [3, 5, 5, 9, 0]       |
+
+
+## 4th Challenge
+Create a function that receives a string that contains combination of parentheses, square brackets, and curly braces. Then, it returns true if every opening bracket has a closing pair.
+
+| Input    | Output |
+| -------- | -------- |
+| }{       | false    |
+| ()       | true     |
+| )({}     | false    |
+| ({ }})   | false    |
+| ({ })    | true     |
+| {{()}}   | true     |
+| {{()}    | false    |
+| [{}]     | true     |
+| {[(}])   | true     |
+| {[}])    | false    |
+
+
+
