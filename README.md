@@ -23,7 +23,7 @@ Create a function that receives a string then it converts uppercase letters into
 
 
 ## 3rd Challenge
-Create a function that receives an array of items & arrays and returns one array with all items exluding null values.
+Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
 
 | N | Input                                 | Output                |
 | - | ------------------------------------- | --------------------- |
