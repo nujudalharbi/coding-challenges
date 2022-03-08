@@ -10,6 +10,23 @@ Create a function that receives an integers array and returns the number that ap
 | (2,2,1)         | 1        |
 
 
+------------------------------
+func recive(arr : [Int])-> Int{
+
+    var num = 0
+    for x in arr {
+        if x != num {
+            continue
+          
+        }
+
+        return num
+    }
+    recive(arr: [1 ,2 ,2])
+
+
+-------------------------------
+
 ## 2nd Challenge
 Create a function that receives a string then it converts uppercase letters into lowercase and vice versa. The function then should print the converted value.
 
@@ -22,6 +39,10 @@ Create a function that receives a string then it converts uppercase letters into
 | sHroog         | ShROOG         |
 
 
+
+
+
+
 ## 3rd Challenge
 Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
 
@@ -31,6 +52,18 @@ Create a function that receives an array of items & arrays and returns one flatt
 | 2 | [7, 0,[null],[null, null, 9]]         | [7, 0, 9]             |
 | 3 | [[null, 3], [2, 4, 5, null], 0, 8, 3] | [3, 2, 4, 5, 0, 8, 3] |
 | 4 | [3, 5, [5, 9, 0]]                     | [3, 5, 5, 9, 0]       |
+
+
+
+
+
+
+let arrayNum = [[1, 8, 3], [7, 6, 6]]
+let flatMap = numbers.flatMap({ $0 })
+
+print(flatMap)
+
+
 
 
 ## 4th Challenge
